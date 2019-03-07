@@ -2,11 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        CashRegister registerNoPattern = new CashRegister();
+        CashRegister registerNoPattern = new CashRegister(new TaxCA());
 
         registerNoPattern.recordPurchase(60);
         registerNoPattern.recordPurchase(40);
-        registerNoPattern.calculateTaxThailand();
+        registerNoPattern.calculateTax();
         registerNoPattern.enterPayment(200);
 
         double change = registerNoPattern.giveChange();
