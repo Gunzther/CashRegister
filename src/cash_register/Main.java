@@ -1,3 +1,4 @@
+package cash_register;
 public class Main {
 
     public static void main(String[] args) {
