@@ -1,4 +1,5 @@
 package cash_register;
+
 public class CashRegister {
     private double purchase; // total amount of product price bought
     private double payment;  // total amount of payment
